@@ -1,14 +1,15 @@
-i = 1
-print i, type(i)
-i = int(2**31)
-print i, type(i)
-i, j = 010, 0x1A
-print i, j
-s = "010100101"
-print s, int(s,2)
-print (9)**0.5
-print 7/3
-print 7//3, 7%3
-print float(7)/3
-print 7.//3, 7.%3
-print 1.1, 0.1, .1, 1.0, 1., 1E-3
+a = 7
+b = 3
+print a/b, a//b
+print a%b
+a = 7.
+b = 3
+print a/b, a//b
+print a%b
+c = float(5)
+print c, 5., .5, int(c)
+
+d = int(2**31-1)
+print type(d), d, type(d+1)
+number = "01010101"
+print 0b10, 010, 0x10, 0x1A, int(number,2), int(number,5), int(number,36)
